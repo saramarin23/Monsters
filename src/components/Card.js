@@ -4,10 +4,16 @@ import React from "react";
 import "./../App.css";
 
 const Card = props => {
-  console.log(props);
+  //   console.log(props);
   return (
     <div className="card-container">
-      <h1>{props.monster.name}</h1>
+      <img
+        className="monster-pic"
+        alt="monster"
+        src={`https://robohash.org/${props.monster.id}?set=set1`}
+      />
+      <h2>{props.monster.name}</h2>
+      <p>{props.monster.email}</p>
     </div>
   );
 };
@@ -15,3 +21,4 @@ const Card = props => {
 export default Card;
 
 //Si consoleamos props nos muestra cada monster (ya mapeado)
+//Las imágenes las hemos cogido de otra api en este caso

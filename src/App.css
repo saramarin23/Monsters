@@ -3,7 +3,6 @@
 }
 
 .card-list {
-  width: 85vw;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -25,4 +24,9 @@
 
 .card-container:hover {
   transform: scale(1.05);
+}
+
+.monster-pic {
+  height: 180px;
+  width: 180px;
 }
