@@ -14,7 +14,4 @@ class searchBox extends React.Component {
   }
 }
 
-//Esto lo sacamos de App para que quede más bonico
-//Habría que ponerlo como dummy porque solo renderiza pero da error ¿? al exportar
-
 export default searchBox;

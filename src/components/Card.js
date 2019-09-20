@@ -19,6 +19,3 @@ const Card = props => {
 };
 
 export default Card;
-
-//Si consoleamos props nos muestra cada monster (ya mapeado)
-//Las imágenes las hemos cogido de otra api en este caso
