@@ -1,3 +1,7 @@
+body {
+  background-color: #ffff99;
+}
+
 .App {
   text-align: center;
 }
@@ -29,4 +33,19 @@
 .monster-pic {
   height: 180px;
   width: 180px;
+}
+
+.searchbox {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-family: sans-serif;
+  color: #3388cc;
 }
